@@ -1,0 +1,55 @@
+Windows OS only
+
+Check python version 3.8.10 version is installed in PC
+If it is already installed, first find where python is installed (to find this directory, look for python.exe where it is installed – as shown below)
+
+C:\> Dir /s python.exe
+c:\users\admin\appdata\local\programs\python\python38\python.exe
+e.g c:\users\admin\appdata\local\programs\python\python38
+Python 64 bit 3.8.10 with 8.6.9 build is installed
+
+2. go to dos prompt ( from any directory e.g default typing CMD command on windows)
+Go to prompt of 
+c:\users\admin\appdata\local\programs\python\python38\scripts>
+
+3. pip install numpy  ( It may say pip not installed if not installed)
+
+4. First find where python is installed ( to find this directory, look for python.exe where it is installed – as shown below)
+c:\users\admin\appdata\local\programs\python\python38\python.exe
+
+5. see that the scripts directory is inside above directory
+
+6. now execute pip install numpy from scripts directory
+-- this command may not work  if  “pip”  is not installed
+- or if numpy already exists , it will give a message 'requirement already satified"
+( Suppose incase pip is not there , how to install pip first 
+python get-pip.py
+
+7. pip --version gave pip 21.1.1
+To install latest version of pip
+python -m pip install --upgrade pip
+( This installed newest pip ver 23.3.1) 
+
+8. pip install matplotlib (installed ver matplotlib 3.7.3)
+
+9. for statsmodels installation
+(This is required for MA, simple exponential model, AR, ARMA, ARIMA) 
+pip install statsmodels ( this will take some time to install)
+
+10. Now pip install tensorflow ( this may  also be installed)
+	( This is required for LSTM, RNN, PID)
+
+11. pip install keras ( This is required for LSTM, RNN, PID) 
+
+12. pip install pandas
+
+13. pip install time-python (required for LSTM, RNN, PID)
+
+14. pip install scikit-learn (required for LSTM, RNN, PID)
+
+15. pip install tclab (required for LSTM, RNN, PID)
+
+16. pip install tqdm (required for LSTM, RNN, PID)
+
+17. pip install tk / pip install tkinter (required for LSTM, RNN, PID)
+
